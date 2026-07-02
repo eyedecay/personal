@@ -16,12 +16,17 @@ export default function App() {
 
       <section id = "projects">
         <h1>Projects </h1>
+
       </section>
 
       <section id = "contact">
         <h1>Contact </h1>
         <Contact/>
+
       </section>
+      <div className = "scrollIndicator">
+          ▼ Scroll Down
+        </div>
     </div>
   )
 }

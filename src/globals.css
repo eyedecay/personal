@@ -8,3 +8,27 @@ body {
     margin: 0 auto;
     padding: 0 30px;
 }
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative; 
+    scroll-margin-top: 70px;
+    scroll-snap-align: start;
+}
+
+.scrollIndicator {
+    position: fixed;
+    bottom: 20px;
+    font-size: 16px;
+    opacity: 0.9;
+    left: 50%;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+
+}
