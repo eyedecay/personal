@@ -1,4 +1,6 @@
-# React + TypeScript + Vite
+# My Personal Website! 
 
-Personal Website (Vite Template)
-```
+Tech: Made with React, Typescript, and Vite
+
+## Next Steps
+- Add projects section 
