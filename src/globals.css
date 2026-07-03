@@ -58,9 +58,11 @@ html {
 .navbar {
     display: flex; 
     top: 0%;
-    left: 0%;
-    width: 100%;
+    left: 50%;
+    width: 600px;
+    transform: translateX(-50%);
     position: fixed;
+    align-items: center; 
     z-index: 1000;
     
 }
@@ -69,7 +71,6 @@ html {
     margin-left: auto; 
     gap: 30px;
     list-style: none;
-    width: 600px;
 }
 
 .links a {
