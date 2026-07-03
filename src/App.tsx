@@ -1,8 +1,11 @@
 import React from "react"; 
 import NavBar from "./components/Navbar"
+import ModeToggle from "./components/ModeToggle"
 import "./globals.css"
 import About from "./pages/About"
 import Contact from "./pages/Contact"
+import Projects from "./pages/Projects"
+
 
 export default function App() {
   return (
@@ -16,7 +19,7 @@ export default function App() {
 
       <section id = "projects">
         <h1>Projects </h1>
-
+        <Projects/>
       </section>
 
       <section id = "contact">
