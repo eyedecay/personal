@@ -10,6 +10,7 @@ export default function About() {
             <p>
                 I'm Johnathan. I'm currently a Grade 11 Student interested in AI and Software Development
             </p>
+            <p> I'm currently building projects <a className = "links-inline" href = "https://hackclub.com/"> @hackclub!</a></p>
         </div>
     );
 }
